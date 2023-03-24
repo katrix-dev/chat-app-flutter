@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Palette.kToDark,
       ),
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }

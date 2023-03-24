@@ -10,6 +10,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     var Colors;
     var FontWeight;
+    var Icons;
     return Scaffold(
       body: const Center(child: Text("Chat")),
       bottomNavigationBar: BottomNavigationBar(
