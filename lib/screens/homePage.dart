@@ -1,4 +1,4 @@
-// ignore_for_file: file_names
+// ignore_for_file: file_names, non_constant_identifier_names
 
 import 'package:flutter/material.dart'
     show BuildContext, Center, Scaffold, StatelessWidget, Text, Widget;
@@ -53,5 +53,6 @@ class HomePage extends StatelessWidget {
 }
 
 class BottomNavigationBarType {
+  // ignore: prefer_typing_uninitialized_variables
   static var fixed;
 }
